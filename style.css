@@ -1,0 +1,20 @@
+body {
+    text-align: center !important;
+}
+
+#date {
+    background-color: rgb(32, 68, 135);
+    color: white;
+}
+
+button {
+    background-color: rgb(32, 68, 135) !important;
+    color: white !important;
+}
+
+#year {
+    background-color: rgb(210, 218, 232);
+    color: white !important;
+    width: 20vw !important;
+}
+
