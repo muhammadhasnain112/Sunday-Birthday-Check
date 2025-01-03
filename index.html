@@ -11,10 +11,22 @@
 </head>
 
 <body>
-    <h1 class="mt-3 mb-5">Check which year your birthday falls on Sunday</h1>
+    <h1 class="mt-3 mb-2">Birthday Check </h1>
+    <!-- <label for="Select" class=""><h4>Select Day</h4></label>  -->
+     <h6>Select the day you want to see your birthday on that day and in which years.</h6>
+    <select name="" id="items" class="btn abc mt-3 mb-3">
+        <option disabled selected>Select A Day</option>
+        <option value="0">Sunday</option>
+        <option value="1">Monday</option>
+        <option value="2">Tuesday</option>
+        <option value="3">Wednesday</option>
+        <option value="4">Thursday</option>
+    </select><br>
+
 
     <input type="date" id="date" class="btn mb-3"> <br>
-    <input type="text" id="year" class="btn mb-3" placeholder="Here is the year you have to check"> <br>
+    <h6>Here you can enter the year you want to see</h6>
+    <input type="text" id="year" class="btn mb-3" placeholder="Enter A Year"> <br>
     <button onclick="date()" class="btn">Click Here!</button>
     <br>
     <br>

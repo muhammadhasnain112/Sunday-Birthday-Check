@@ -11,10 +11,13 @@ button {
     background-color: rgb(32, 68, 135) !important;
     color: white !important;
 }
+.abc{
+    background-color: #D2DAE8 !important;
 
+}
 #year {
     background-color: rgb(210, 218, 232);
     color: white !important;
-    width: 20vw !important;
+    /* width: 20vw !important; */
 }
 
